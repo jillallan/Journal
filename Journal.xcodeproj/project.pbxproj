@@ -12,7 +12,7 @@
 		7804D62A2AE5260E0054FB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7804D6292AE5260E0054FB4A /* Assets.xcassets */; };
 		7804D62E2AE5260E0054FB4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7804D62D2AE5260E0054FB4A /* Preview Assets.xcassets */; };
 		7804D6392AE5260E0054FB4A /* EnvironmentValuesExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6382AE5260E0054FB4A /* EnvironmentValuesExtensionTests.swift */; };
-		7804D6432AE5260E0054FB4A /* JournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6422AE5260E0054FB4A /* JournalUITests.swift */; };
+		7804D6432AE5260E0054FB4A /* NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6422AE5260E0054FB4A /* NavigationUITests.swift */; };
 		7804D6452AE5260E0054FB4A /* JournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6442AE5260E0054FB4A /* JournalUITestsLaunchTests.swift */; };
 		7804D6572AE5451C0054FB4A /* AppSidebarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6562AE5451C0054FB4A /* AppSidebarList.swift */; };
 		7804D6592AE5456F0054FB4A /* EnvironmentValues+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6582AE5456F0054FB4A /* EnvironmentValues+Extension.swift */; };
@@ -56,7 +56,7 @@
 		7804D6342AE5260E0054FB4A /* JournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7804D6382AE5260E0054FB4A /* EnvironmentValuesExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValuesExtensionTests.swift; sourceTree = "<group>"; };
 		7804D63E2AE5260E0054FB4A /* JournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7804D6422AE5260E0054FB4A /* JournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalUITests.swift; sourceTree = "<group>"; };
+		7804D6422AE5260E0054FB4A /* NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITests.swift; sourceTree = "<group>"; };
 		7804D6442AE5260E0054FB4A /* JournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7804D6562AE5451C0054FB4A /* AppSidebarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSidebarList.swift; sourceTree = "<group>"; };
 		7804D6582AE5456F0054FB4A /* EnvironmentValues+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+Extension.swift"; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 		7804D6412AE5260E0054FB4A /* JournalUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7804D6422AE5260E0054FB4A /* JournalUITests.swift */,
+				7804D6422AE5260E0054FB4A /* NavigationUITests.swift */,
 				7804D6442AE5260E0054FB4A /* JournalUITestsLaunchTests.swift */,
 			);
 			path = JournalUITests;
@@ -352,7 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7804D6452AE5260E0054FB4A /* JournalUITestsLaunchTests.swift in Sources */,
-				7804D6432AE5260E0054FB4A /* JournalUITests.swift in Sources */,
+				7804D6432AE5260E0054FB4A /* NavigationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

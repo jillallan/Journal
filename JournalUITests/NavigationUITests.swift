@@ -1,13 +1,13 @@
 //
-//  JournalUITests.swift
-//  JournalUITests
+//  NavigationUITests.swift
+//  NavigationUITests
 //
 //  Created by Jill Allan on 22/10/2023.
 //
 
 import XCTest
 
-final class JournalUITests: XCTestCase {
+final class NavigationUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -27,10 +27,9 @@ final class JournalUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         
-        let addButton = app/*@START_MENU_TOKEN@*/.windows["Journal"]/*[[".windows[\"Journal\"]",".windows[\"Journal.ContentView-1-AppWindow-1\"]"],[[[-1,1],[-1,0]]],[1]]@END_MENU_TOKEN@*/.toolbars.children(matching: .button)["Add Item"]
-        XCTAssert(addButton.isHittable)
+        let tabBar = app.tabBars.firstMatch
+        XCTAssert(tabBar.isHittable)
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
     func testLaunchPerformance() throws {
