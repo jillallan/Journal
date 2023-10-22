@@ -8,11 +8,23 @@
 import SwiftUI
 
 struct AppDetailColumn: View {
+    var screen: AppScreen?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Group {
+            if let screen {
+                screen.destination
+            } else {
+                ContentUnavailableView("Select a View", systemImage: "airplane", description: Text("Pick something from the list."))
+            }
+        }
+#if os(macOS)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background()
+#endif
     }
 }
 
-#Preview {
+#Preview() {
     AppDetailColumn()
 }

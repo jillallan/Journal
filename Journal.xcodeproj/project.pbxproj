@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		7804D6242AE5260D0054FB4A /* JournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6232AE5260D0054FB4A /* JournalApp.swift */; };
 		7804D6262AE5260D0054FB4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6252AE5260D0054FB4A /* ContentView.swift */; };
-		7804D6282AE5260D0054FB4A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6272AE5260D0054FB4A /* Item.swift */; };
 		7804D62A2AE5260E0054FB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7804D6292AE5260E0054FB4A /* Assets.xcassets */; };
 		7804D62E2AE5260E0054FB4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7804D62D2AE5260E0054FB4A /* Preview Assets.xcassets */; };
 		7804D6392AE5260E0054FB4A /* JournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6382AE5260E0054FB4A /* JournalTests.swift */; };
 		7804D6432AE5260E0054FB4A /* JournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6422AE5260E0054FB4A /* JournalUITests.swift */; };
 		7804D6452AE5260E0054FB4A /* JournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6442AE5260E0054FB4A /* JournalUITestsLaunchTests.swift */; };
+		7804D6572AE5451C0054FB4A /* AppSidebarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6562AE5451C0054FB4A /* AppSidebarList.swift */; };
+		7804D6592AE5456F0054FB4A /* EnvironmentValues+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6582AE5456F0054FB4A /* EnvironmentValues+Extension.swift */; };
+		7804D65B2AE546AF0054FB4A /* AppScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D65A2AE546AF0054FB4A /* AppScreen.swift */; };
+		7804D65E2AE547070054FB4A /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D65D2AE547070054FB4A /* TripView.swift */; };
+		7804D6612AE5472A0054FB4A /* StepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6602AE5472A0054FB4A /* StepView.swift */; };
+		7804D6632AE547340054FB4A /* PlacemarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6622AE547340054FB4A /* PlacemarkView.swift */; };
+		7804D6652AE5475F0054FB4A /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6642AE5475F0054FB4A /* StatisticsView.swift */; };
+		7804D6672AE547650054FB4A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6662AE547650054FB4A /* SettingsView.swift */; };
+		7804D6692AE5491E0054FB4A /* AppDetailColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7804D6682AE5491E0054FB4A /* AppDetailColumn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,6 @@
 		7804D6202AE5260D0054FB4A /* Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7804D6232AE5260D0054FB4A /* JournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalApp.swift; sourceTree = "<group>"; };
 		7804D6252AE5260D0054FB4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7804D6272AE5260D0054FB4A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		7804D6292AE5260E0054FB4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7804D62B2AE5260E0054FB4A /* Journal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Journal.entitlements; sourceTree = "<group>"; };
 		7804D62D2AE5260E0054FB4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -48,6 +55,15 @@
 		7804D63E2AE5260E0054FB4A /* JournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7804D6422AE5260E0054FB4A /* JournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalUITests.swift; sourceTree = "<group>"; };
 		7804D6442AE5260E0054FB4A /* JournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7804D6562AE5451C0054FB4A /* AppSidebarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSidebarList.swift; sourceTree = "<group>"; };
+		7804D6582AE5456F0054FB4A /* EnvironmentValues+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+Extension.swift"; sourceTree = "<group>"; };
+		7804D65A2AE546AF0054FB4A /* AppScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreen.swift; sourceTree = "<group>"; };
+		7804D65D2AE547070054FB4A /* TripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripView.swift; sourceTree = "<group>"; };
+		7804D6602AE5472A0054FB4A /* StepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepView.swift; sourceTree = "<group>"; };
+		7804D6622AE547340054FB4A /* PlacemarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkView.swift; sourceTree = "<group>"; };
+		7804D6642AE5475F0054FB4A /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		7804D6662AE547650054FB4A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7804D6682AE5491E0054FB4A /* AppDetailColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailColumn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +116,13 @@
 			children = (
 				7804D6232AE5260D0054FB4A /* JournalApp.swift */,
 				7804D6252AE5260D0054FB4A /* ContentView.swift */,
-				7804D6272AE5260D0054FB4A /* Item.swift */,
+				7804D65C2AE546EF0054FB4A /* Extensions */,
+				7804D6552AE544E80054FB4A /* Navigation */,
 				7804D6292AE5260E0054FB4A /* Assets.xcassets */,
 				7804D62B2AE5260E0054FB4A /* Journal.entitlements */,
 				7804D62F2AE5260E0054FB4A /* Info.plist */,
 				7804D62C2AE5260E0054FB4A /* Preview Content */,
+				7804D65F2AE5470E0054FB4A /* Trips */,
 			);
 			path = Journal;
 			sourceTree = "<group>";
@@ -132,6 +150,36 @@
 				7804D6442AE5260E0054FB4A /* JournalUITestsLaunchTests.swift */,
 			);
 			path = JournalUITests;
+			sourceTree = "<group>";
+		};
+		7804D6552AE544E80054FB4A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				7804D65A2AE546AF0054FB4A /* AppScreen.swift */,
+				7804D6562AE5451C0054FB4A /* AppSidebarList.swift */,
+				7804D6682AE5491E0054FB4A /* AppDetailColumn.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		7804D65C2AE546EF0054FB4A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7804D6582AE5456F0054FB4A /* EnvironmentValues+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7804D65F2AE5470E0054FB4A /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				7804D65D2AE547070054FB4A /* TripView.swift */,
+				7804D6602AE5472A0054FB4A /* StepView.swift */,
+				7804D6622AE547340054FB4A /* PlacemarkView.swift */,
+				7804D6642AE5475F0054FB4A /* StatisticsView.swift */,
+				7804D6662AE547650054FB4A /* SettingsView.swift */,
+			);
+			path = Trips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +313,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7804D6262AE5260D0054FB4A /* ContentView.swift in Sources */,
-				7804D6282AE5260D0054FB4A /* Item.swift in Sources */,
+				7804D6632AE547340054FB4A /* PlacemarkView.swift in Sources */,
 				7804D6242AE5260D0054FB4A /* JournalApp.swift in Sources */,
+				7804D6572AE5451C0054FB4A /* AppSidebarList.swift in Sources */,
+				7804D6652AE5475F0054FB4A /* StatisticsView.swift in Sources */,
+				7804D6672AE547650054FB4A /* SettingsView.swift in Sources */,
+				7804D65E2AE547070054FB4A /* TripView.swift in Sources */,
+				7804D6592AE5456F0054FB4A /* EnvironmentValues+Extension.swift in Sources */,
+				7804D6612AE5472A0054FB4A /* StepView.swift in Sources */,
+				7804D6692AE5491E0054FB4A /* AppDetailColumn.swift in Sources */,
+				7804D65B2AE546AF0054FB4A /* AppScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
