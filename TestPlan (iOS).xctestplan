@@ -1,0 +1,52 @@
+{
+  "configurations" : [
+    {
+      "id" : "18A9214F-FA2C-4D96-9562-E300E3269978",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    },
+    {
+      "id" : "4DD07E00-A9B2-493D-80B7-212127ADC97C",
+      "name" : "Configuration 2",
+      "options" : {
+        "language" : "fr"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Journal.xcodeproj",
+        "identifier" : "7804D6332AE5260E0054FB4A",
+        "name" : "JournalTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Journal.xcodeproj",
+        "identifier" : "78A61BE62AE6A65C00777A27",
+        "name" : "iOSJournalTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Journal.xcodeproj",
+        "identifier" : "784BFDF62AE6A9F300CD8E9C",
+        "name" : "iOSJournalUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Journal.xcodeproj",
+        "identifier" : "7804D63D2AE5260E0054FB4A",
+        "name" : "JournalUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

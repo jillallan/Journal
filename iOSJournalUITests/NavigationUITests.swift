@@ -1,13 +1,13 @@
 //
-//  JournalUITests.swift
-//  JournalUITests
+//  iOSJournalUITests.swift
+//  iOSJournalUITests
 //
-//  Created by Jill Allan on 22/10/2023.
+//  Created by Jill Allan on 23/10/2023.
 //
 
 import XCTest
 
-final class JournalUITests: XCTestCase {
+final class NavigationUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -22,17 +22,17 @@ final class JournalUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    
     func testExample() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
         
-        let addButton = app/*@START_MENU_TOKEN@*/.windows["Journal"]/*[[".windows[\"Journal\"]",".windows[\"Journal.ContentView-1-AppWindow-1\"]"],[[[-1,1],[-1,0]]],[1]]@END_MENU_TOKEN@*/.toolbars.children(matching: .button)["Add Item"]
-        XCTAssert(addButton.isHittable)
+        let tabBar = app.tabBars.firstMatch
+        XCTAssert(tabBar.isHittable)
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-
+    
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
             // This measures how long it takes to launch your application.
