@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7804D61F2AE5260D0054FB4A"
-               BuildableName = "Journal.app"
+               BuildableName = "Trip Journal.app"
                BlueprintName = "Journal"
                ReferencedContainer = "container:Journal.xcodeproj">
             </BuildableReference>
@@ -26,8 +26,16 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:TestPlan (iOS).xctestplan"
+            default = "YES">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:TestPlan (macOS).xctestplan">
+         </TestPlanReference>
+      </TestPlans>
       <Testables>
          <TestableReference
             skipped = "NO"
@@ -51,6 +59,28 @@
                ReferencedContainer = "container:Journal.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "78A61BE62AE6A65C00777A27"
+               BuildableName = "iOSJournalTests.xctest"
+               BlueprintName = "iOSJournalTests"
+               ReferencedContainer = "container:Journal.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "784BFDF62AE6A9F300CD8E9C"
+               BuildableName = "iOSJournalUITests.xctest"
+               BlueprintName = "iOSJournalUITests"
+               ReferencedContainer = "container:Journal.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -68,7 +98,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7804D61F2AE5260D0054FB4A"
-            BuildableName = "Journal.app"
+            BuildableName = "Trip Journal.app"
             BlueprintName = "Journal"
             ReferencedContainer = "container:Journal.xcodeproj">
          </BuildableReference>
@@ -85,7 +115,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7804D61F2AE5260D0054FB4A"
-            BuildableName = "Journal.app"
+            BuildableName = "Trip Journal.app"
             BlueprintName = "Journal"
             ReferencedContainer = "container:Journal.xcodeproj">
          </BuildableReference>

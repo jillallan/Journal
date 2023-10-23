@@ -1,8 +1,8 @@
 //
-//  NavigationUITests.swift
-//  NavigationUITests
+//  iOSJournalUITests.swift
+//  iOSJournalUITests
 //
-//  Created by Jill Allan on 22/10/2023.
+//  Created by Jill Allan on 23/10/2023.
 //
 
 import XCTest
@@ -22,13 +22,23 @@ final class NavigationUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    
+    func testExample() throws {
+        // UI tests must launch the application that they test.
+        let app = XCUIApplication()
+        app.launch()
+        
+        let tabBar = app.tabBars.firstMatch
+        XCTAssert(tabBar.isHittable)
 
-//    func testLaunchPerformance() throws {
-//        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-//            // This measures how long it takes to launch your application.
-//            measure(metrics: [XCTApplicationLaunchMetric()]) {
-//                XCUIApplication().launch()
-//            }
-//        }
-//    }
+    }
+    
+    func testLaunchPerformance() throws {
+        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
+            // This measures how long it takes to launch your application.
+            measure(metrics: [XCTApplicationLaunchMetric()]) {
+                XCUIApplication().launch()
+            }
+        }
+    }
 }
